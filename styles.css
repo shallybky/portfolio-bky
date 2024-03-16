@@ -231,8 +231,11 @@ hr {
 }
 
 .Lien {
+    margin-left: -71px;
     margin-top: 15px;
     padding-bottom: 7%;
+    display: flex;
+    justify-content: center;
 }
 
 #projet a {
