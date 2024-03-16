@@ -1,0 +1,269 @@
+@media only screen and (max-width: 768px) {
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    background-color: #e4e4e4;
+}
+
+h1 {
+    font-size: 17px;
+    margin-left: 21px;
+}
+
+h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.line {
+    background: #666;
+    width: 55px;
+    height: 0.5px;
+    margin: 15px auto;
+}
+
+/* Navigation styles */
+header {
+    background-color: #ffffff;
+    color: white;
+    text-align: center;
+}
+
+.bar {
+    width: 25px;
+    height: 3px;
+    background-color: #666;
+    margin: 5px 0;
+    transition: 0.4s;
+    margin-left: 20px;
+    margin-left: -42px;
+    margin-top: 7px;
+}
+
+nav a{
+    font-size: 13px;
+}
+
+nav {
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    position: absolute;
+    top: 60px;
+    left: 0;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+nav a::after {
+    content: none;
+    position: none;
+}
+
+nav.open {
+    display: flex;
+    margin-top: -18px;
+    box-shadow: none;
+}
+
+section {
+    padding: 20px;
+}
+
+section#presentation {
+    background-image: none;
+}
+
+
+section#presentation h2, section#realisation h2, section#activite h2, section#contact h2, section#competences h2, #projet h2 {
+    font-size: 15px;
+}
+
+section#presentation p, section#realisation p, section#contact p {
+    font-size: 15px;
+}
+
+div.img-container {
+   display: flex;
+   flex-direction: column;
+}
+
+img {
+    width: 96%;
+    margin-left: 2%; 
+}
+
+.card{
+    width: 75%;
+    margin-left: 13%;
+    height: auto;
+}
+.card2 {
+    height: 145px;
+    width: 46%;
+}
+
+.card-text a {
+    display: flex;
+    margin-left: -170px;
+    justify-content: space-around;
+    font-size: 14px;
+}
+
+.card2 .hover-text {
+    font-size: 55%;
+}
+
+section#activite {
+    height: 0%;
+    padding-top: 5px;
+}
+
+.card-container {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.card2 a{
+    font-size: 10px;
+}
+
+i.fa-solid.fa-laptop, i.fa.fa-code, .fa-regular.fa-window-restore, .fa-solid.fa-cloud-arrow-up {
+    font-size: 51px;
+}
+
+
+.programmer-img {
+    display: none;
+}
+
+.éval {
+    margin-left: 26%;
+    margin-top: 25px;
+}
+
+
+/* Contact section */
+section#contact {
+    background-color: #f2f2f2;
+}
+
+.contact-section {
+    max-width: 100%;
+    width: 100%;
+    margin-left: 0;
+}
+
+/* Footer */
+#footer {
+    padding: 20px 0;
+}
+
+.footer-content a:not(:last-child) {
+    margin-right: 10px;
+}
+
+/* Project section */
+
+.texte-site {
+    display: block;
+    margin-top: 20px;
+}
+
+.icon {
+    margin-top: -20px;
+    margin-left: 34%;
+}
+
+/*part site */
+.information {
+    margin-top: -90px;
+    display: flex;
+    flex-direction: column;
+}
+
+h3{
+    font-size: 15px;
+    margin-left: 10px;
+    margin-top: 0px;
+}
+
+#projet p {
+    margin-left: -4px;
+    font-size: 12px;
+    width: 16rem;
+}
+
+.intro {
+    margin-left: -65px;
+}
+
+.intro-description {
+    width: 100%;
+    margin-top: -70px;
+}
+
+.list1 {
+    padding: 10px 0px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+hr {
+    margin-top: -5px;
+}
+
+.list1 span {
+    font-size: 9px;
+    margin-right: 10px;
+    padding: 12px;
+}
+
+.list1 ul li {
+    font-size: 12px;
+}
+
+.Lien {
+    margin-top: 15px;
+    padding-bottom: 7%;
+}
+
+#projet a {
+    font-size: 15px;
+}
+
+.photo-site {
+    margin-left: 20px;
+    background-color: #f2f2f2;
+}
+
+#projet img {
+    width: 95%;
+    margin-top: 6px;
+    margin-left: -20px;
+}
+
+/*part retour */
+div.retour{
+    display: block;
+    margin-top: 6px;
+    margin-right: 5%;
+}
+
+div.retour a {
+    font-family: 'Poppins', sans-serif;
+    position: relative;
+    color: #666;
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+
+}
