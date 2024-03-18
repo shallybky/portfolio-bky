@@ -1,26 +1,5 @@
 <?php
-
-if ($_SERVER["REQUEST_METHOD"] == "POST") {
-   
-    $name = $_POST["name"];
-    $email = $_POST["email"];
-    $message = $_POST["message"];
-    
-    
-    $to = "bakayoko.shally.b@gmail.com";
-
-    $subject = "Nouveau message du formulaire de contact";
-
-    $body = "Nom: $name\n";
-    $body .= "E-mail: $email\n";
-    $body .= "Message:\n$message";
-
-    $headers = "From: $email";
-
-    if (mail($to, $subject, $body, $headers)) {
-        echo "Votre message a été envoyé avec succès.";
-    } else {
-        echo "Une erreur s'est produite lors de l'envoi du message.";
-    }
-}
-?>
+    $retour = mail('bakayoko.shally.b@gmail.com', 'Envoi depuis la page Contact', $_POST['message'], 'From: https://shallybky.github.io/portfolio-bky/');
+    if ($retour)
+        echo '<p>Votre message a bien été envoyé.</p>';
+    ?>
