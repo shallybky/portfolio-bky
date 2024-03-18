@@ -320,7 +320,7 @@ button:hover {
     transform: translateX(-50%);
     z-index: 9999;
     opacity: 1; 
-    animation: fadeInAndOut 1000s forwards; 
+    animation: fadeInAndOut 5000s forwards; 
     border: 2px solid white; 
 }
 
