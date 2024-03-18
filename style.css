@@ -304,6 +304,31 @@ button:hover {
 }
 
 
+@keyframes fadeInAndOut {
+    0% { opacity: 1; } 
+    90% { opacity: 1; } 
+    100% { opacity: 0; } 
+}
+
+.message-envoye {
+    background-color: rgb(105, 255, 100);
+    color: white;
+    padding: 10px;
+    position: fixed;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 9999;
+    opacity: 1; 
+    animation: fadeInAndOut 1000s forwards; 
+    border: 2px solid white; 
+}
+
+.message-envoye.hide {
+    display: none; 
+}
+
+
 #footer {
     text-align: center;
     padding: 40px 0;
