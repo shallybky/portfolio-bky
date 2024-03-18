@@ -3,20 +3,9 @@ function toggleMenu() {
     nav.classList.toggle('open');
 }
 
-function afficherMessage() {
-    var messageDiv = document.createElement("div");
-    messageDiv.textContent = "Message envoyé";
-    messageDiv.classList.add("message-envoye");
-
-    document.body.appendChild(messageDiv);
-
+document.getElementById("submitBtn").addEventListener("click", function() {
+    document.getElementById("messageSent").classList.remove("hide");
     setTimeout(function() {
-        messageDiv.classList.add('hide');
-    }, 0); 
-}
-
-document.querySelector("form").addEventListener("submit", function(event) {
-    event.preventDefault(); 
-    afficherMessage();
-    this.submit(); 
+        document.getElementById("messageSent").classList.add("hide");
+    }, 5000 ); // Durée de l'animation définie ici en millisecondes
 });
