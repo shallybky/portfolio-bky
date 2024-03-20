@@ -29,7 +29,6 @@ h2 {
 
 /* Navigation styles */
 header {
-    background-color: #ffffff;
     color: white;
     text-align: center;
 }
@@ -47,6 +46,7 @@ header {
 
 nav a{
     font-size: 13px;
+    color: #000;
 }
 
 nav {
@@ -74,6 +74,7 @@ nav.open {
 
 section#presentation {
     background-image: none;
+    padding: 45px;
 }
 
 

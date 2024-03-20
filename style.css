@@ -30,7 +30,7 @@ h1{
     font-weight: 700;
     font-size: 25px;
     margin-left: 125px;
-    color: #807c76;
+    color: white;
 }
 
 h2{
@@ -75,27 +75,32 @@ section#competences {
     height: 34rem;
 }
 
-
 header {
-    background-color: #ffffff;
+    background-color: black;
     color: white;
     text-align: center;
     display: flex;
     justify-content: space-between;
+    position: fixed;
+    width: 100%; 
+    z-index: 1000;
 }
 
 nav {
-    margin-top: 16px; 
-    margin-right: 5%;
+    position: fixed; 
+    right: 5%; 
+    top: 16px; 
+    z-index: 1000;
 }
 
 nav a {
     font-family: 'Poppins', sans-serif;
     position: relative;
-    color: #666;
+    color: white;
     margin: 0 10px;
     text-decoration: none;
 }
+
 nav a::after {
     content: "";
     position: absolute;
@@ -103,7 +108,7 @@ nav a::after {
     left: 0;
     width: 0;
     height: 0.5px;
-    background-color: #666;
+    background-color: white;
     transition: width 0.5s ease-in-out;
 }
 nav a:hover::after {
