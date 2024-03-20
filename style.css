@@ -117,8 +117,10 @@ img:hover {
 }
 
 .card-text {
-    margin-left: 169px;
-    margin-top: -10px;
+    margin-left: -19px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 .card-text a {
