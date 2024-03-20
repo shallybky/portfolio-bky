@@ -105,9 +105,12 @@ img {
     width: 46%;
 }
 
+.card-text {
+    margin-left: -2px;
+}
+
 .card-text a {
     display: flex;
-    margin-left: -170px;
     justify-content: space-around;
     font-size: 14px;
 }
