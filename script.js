@@ -7,5 +7,5 @@ document.getElementById("submitBtn").addEventListener("click", function() {
     document.getElementById("messageSent").classList.remove("hide");
     setTimeout(function() {
         document.getElementById("messageSent").classList.add("hide");
-    }, 5000 ); // Durée de l'animation définie ici en millisecondes
+    }, 5000 ); 
 });
