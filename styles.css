@@ -72,10 +72,6 @@ nav.open {
     box-shadow: none;
 }
 
-section {
-    padding: 20px;
-}
-
 section#presentation {
     background-image: none;
 }
@@ -148,6 +144,9 @@ i.fa-solid.fa-laptop, i.fa.fa-code, .fa-regular.fa-window-restore, .fa-solid.fa-
     margin-top: 25px;
 }
 
+section#competences {
+   height: 20rem; 
+}
 
 /* Contact section */
 section#contact {
