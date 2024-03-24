@@ -60,7 +60,7 @@ section#presentation p, section#realisation p, section#contact p {
 }
 section#presentation {
     background-color: #f2f2f2;
-    background-image: url('img/intro.png'); 
+    background-image: url('img/Home.png'); 
     background-position: center;
     padding: 6%;
 }
