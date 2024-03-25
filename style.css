@@ -72,6 +72,7 @@ section#presentation p, section#realisation p, section#contact p {
     color: #807c76;
 }
 section#presentation {
+    background: url(img/Home.png);
     background-color: #f2f2f2;
     background-position: center;
     padding: 6%;
