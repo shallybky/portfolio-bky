@@ -5,7 +5,7 @@ body {
 }
 
 html{
-    background-color: #e4e4e4;
+    background-color: #f2f2f2;
 }
 
 .fade-in-up {
@@ -23,6 +23,19 @@ html{
         opacity: 1;
         transform: translateY(30px);
     }
+}
+
+#portfolio {
+    background: url(img/shally.bky.gif);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    padding: 0;
+    position: relative;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
 
 h1{
@@ -60,7 +73,6 @@ section#presentation p, section#realisation p, section#contact p {
 }
 section#presentation {
     background-color: #f2f2f2;
-    background-image: url('img/Home.png'); 
     background-position: center;
     padding: 6%;
 }
@@ -299,6 +311,8 @@ i.fa-brands.fa-html5 a, .fa-brands.fa-css3-alt a, i.fa-brands.fa-js a, i.fa-bran
 
 section#contact {
     background-color: #f2f2f2;
+    background-image: url('img/Design.jpg'); 
+
 }
 
 .contact-section {
