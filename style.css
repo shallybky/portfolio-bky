@@ -284,19 +284,25 @@ i.fa-solid.fa-laptop, i.fa.fa-code, .fa-regular.fa-window-restore, .fa-solid.fa-
     text-align: center;
     height: 42px;
 }
+.progress-bar-inner6 {
+    background-color:  #4f4651;
+    text-align: center;
+    height: 42px;
+}
+
 
 .éval{
     margin-left: 48%;
     margin-top: -28%;
 }
 
-i.fa-brands.fa-html5, i.fa-brands.fa-css3-alt, i.fa-brands.fa-js, i.fa-brands.fa-react,  i.fa-brands.fa-php{
+i.fa-brands.fa-html5, i.fa-brands.fa-css3-alt, i.fa-brands.fa-js, i.fa-brands.fa-react,  i.fa-brands.fa-php, .fa-solid.fa-database{
     color: black;
     margin-left: -80px;
     position: absolute;
     font-size: 20px;
 }
-i.fa-brands.fa-html5 a, .fa-brands.fa-css3-alt a, i.fa-brands.fa-js a, i.fa-brands.fa-react a,  i.fa-brands.fa-php a{
+i.fa-brands.fa-html5 a, .fa-brands.fa-css3-alt a, i.fa-brands.fa-js a, i.fa-brands.fa-react a,  i.fa-brands.fa-php a, .fa-solid.fa-database a{
     font-family: 'Poppins', sans-serif;
     color: black;
     font-size: 15px;
