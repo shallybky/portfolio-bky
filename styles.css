@@ -283,7 +283,7 @@ div.retour a {
 
 }
 
-@media only screen and (max-width: 1020px) {
+@media only screen and (max-width: 1000px) {
 
     #portfolio{
         display: none;
