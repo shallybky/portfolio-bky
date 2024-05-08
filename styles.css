@@ -141,6 +141,9 @@ section#activite {
 i.fa-solid.fa-laptop, i.fa.fa-code, .fa-regular.fa-window-restore, .fa-solid.fa-cloud-arrow-up {
     font-size: 51px;
 }
+.fa-solid.fa-list-check {
+    font-size: 55px;
+}
 
 
 .programmer-img {
@@ -153,7 +156,11 @@ i.fa-solid.fa-laptop, i.fa.fa-code, .fa-regular.fa-window-restore, .fa-solid.fa-
 }
 
 section#competences {
-   height: 20rem; 
+   height: 25rem; 
+}
+
+i.fa-brands.fa-html5, i.fa-brands.fa-css3-alt, i.fa-brands.fa-js, i.fa-brands.fa-react, i.fa-brands.fa-php, .fa-solid.fa-database {
+    margin-left: -85px;
 }
 
 /* Contact section */
@@ -275,5 +282,12 @@ div.retour a {
     text-decoration: none;
 }
 
+}
 
+@media only screen and (max-width: 820px) {
+
+    #portfolio{
+        display: none;
+    }
+    
 }
