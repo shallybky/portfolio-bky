@@ -325,6 +325,7 @@ section#contact {
     align-items: center;
     justify-content: center;
     font-family: 'Poppins', sans-serif;
+    padding: 35px;
 }
 
 .contact-section i {
