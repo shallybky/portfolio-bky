@@ -3,13 +3,6 @@ function toggleMenu() {
     nav.classList.toggle('open');
 }
 
-document.getElementById("submitBtn").addEventListener("click", function() {
-    document.getElementById("messageSent").classList.remove("hide");
-    setTimeout(function() {
-        document.getElementById("messageSent").classList.add("hide");
-    }, 5000 ); 
-});
-
 document.addEventListener('scroll', function() {
     var competencesSection = document.getElementById('competences');
     var windowHeight = window.innerHeight;
