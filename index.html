@@ -1,239 +1,207 @@
 <!DOCTYPE html>
 <html lang="fr">
-
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link href="https://fonts.googleapis.com/css2?family=Anybody:ital,wght@0,100..900;1,100..900&family=Lexend+Deca:wght@100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Questrial&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Mukta:wght@200;300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&family=Mukta:wght@200;300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/4a2f2722a9.js" crossorigin="anonymous"></script>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="...">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="styles.css">
-    <title>portfolio-bky</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <title>Créations Digitales</title>
 
 </head>
-
 <body>
-
-    <header>
-        <h1>BAKAYOKO SHALLY</h1>
-        <div class="menu-toggle" onclick="toggleMenu()">
+    <div class="navbar">
+        <div class="icon-links">
+            <a href="https://www.linkedin.com/in/shally-bakayoko-225sb1104/" target="_blank" >
+            <i class="fa-brands fa-linkedin"></i></a>
+            <i class="fa-solid fa-envelope"></i>
+            <a href="https://github.com/shallybky" target="_blank" title="GitHub">
+            <i class="fa-brands fa-github"></i></a>
+        </div>  
+        <div class="menu">
+            <a href="#accueil">ACCUEIL</a>
+            <a href="#cv">CV</a>
+            <a href="#services">SERVICES</a>
+            <a href="#realisation">RÉALISATION</a>
+            <a href="#contact">CONTACT</a>
+        </div>
+        <div class="burger" onclick="toggleMenu()">
             <div class="bar"></div>
             <div class="bar"></div>
             <div class="bar"></div>
         </div>
-    <nav class="retour">
-        <a href="#presentation">PRÉSENTATION</a>
-        <a href="#realisation">RÉALISATION</a>
-        <a href="#activite">SERVICES</a>
-        <a href="#competences">COMPÉTENCES</a>
-        <a href="Professional CV .pdf">CV</a>
-        <a href="#contact">CONTACT</a>
-    </nav>
+    </div>
+    <div class="content"  id="accueil">
+        <h1>Créations Digitales</h1>
+        <p>Shally Bakayoko</p>
 
-    </header>
+        <div class="ordinateur">
+            <img src="img/ordinateur.png">
+        </div>
+    </div>
 
-   <!-- <section id="portfolio" class="module-image js-height-full" style="height: 730px;background-position: 50% 0px;">
-    </section>-->
+    <div class="plus" >
+        <a href="#cv">VOIR PLUS</a>
+    </div>
 
-    <section id="presentation" class="fade-in-up">
-        <h2>PRÉSENTATION</h2>
-        <div class="line"></div>
-        <p>Étudiante passionnée dans le domaine du web depuis 2 ans et actuellement spécialisée en développement web, 
-            je conçois et réalise des sites internet du cahier des charges à la mise en ligne. 
-            Mes compétences s'étendent également au développement d'applications mobiles. 
-            Si vous souhaitez en savoir plus sur mon parcours, n'hésitez pas à me contacter.
-            
-           <br>Pour accéder à mon CV, veuillez parcourir la barre de navigation.</br>
+    <section class="about" id="cv">
+        <a class="btn">À PROPOS</a>
+        <p>
+            Étudiante passionnée dans le domaine du web depuis 2 ans et actuellement spécialisée en développement web, je conçois et réalise des sites internet du cahier des charges à la mise en ligne.<br><br>
+            Mes compétences s'étendent également au développement d'applications mobiles. Si vous souhaitez en savoir plus sur mon parcours, n'hésitez pas à me contacter.
         </p>
-    </section>
-
-    <section id="realisation">
-        <h2>RÉALISATION</h2>
-        <div class="line"></div>
-        <p>Découvrez quelques-uns de mes projets réalisés.</p>
-    
-        <div class="img-container">
-
-    <article class="card">
-            <a href="booki.html">
-        <img src="img/booki.jpg">
-        <div class="card-text">
-             BOOKI </a>
-        </div>
-
-    </article>
-
-    <article class="card">
-            <a href="ohmyfood.html">
-        <img src="img/ohmyfood.jpg" >
-        <div class="card-text">
-            OHMYFOOD </a>
-        </div>
-    </article>
-
-    <article class="card">
-            <a href="ninacarducci.html">
-        <img src="img/nina.jpg">
-        <div class="card-text">
-            NINA CARDUCCI </a>
-        </div>
-    </article>
-
-    <article class="card">
-            <a href="kasa.html">
-        <img src="img/kasa.jpg">
-        <div class="card-text">
-            KASA </a>
-        </div>
-    </article>
-
-    <article class="card">
-            <a href="724events.html">
-        <img src="img/724events.jpeg">
-        <div class="card-text">
-            724EVENTS </a>
-        </div>
-    </article>
-
-    <article class="card">
-        <a href="printit.html">
-        <img src="img/print it.jpg">
-        <div class="card-text">
-            PRINT IT </a>
-        </div>
-    </article>
-
-    </div>
-    </section>
-
-    <section id="activite">
-        <h2>Services</h2>
-        <div class="line"></div>
-
-    <div class="card-container">
-
-        <article class="card2">
-    <i class="fa-regular fa-window-restore"></i>
-    <a>Projet Web</a>
-    <div class="hover-text">
-        Landing page, site vitrine, e-commerce, intranet, application web & mobile
-    </div>
-        </article>
-
-        <article class="card2">
-    <i class="fa-solid fa-laptop"></i>
-    <a>Multi-device</a>
-    <div class="hover-text">
-        Adapté à toutes les plateformes, tablettes et applications mobiles
-    </div>
-        </article>
-
-         <article class="card2">
-        <i class="fa-solid fa-cloud-arrow-up"></i>
-        <a>Audit & Optimisation </a>
-        <div class="hover-text">
-           Analyse du site, améloration de performances, optimisation SEO           
-         </div>
-            </article>
-
-        <article class="card2">
-       <i class="fa fa-code" aria-hidden="true"></i>  
-       <a>Programmation web</a> 
-       <div class="hover-text">
-        Création de site web | Application sur-mesure repondant aux besoins des clients
-    </div>  
-        </article>
-
-        <article class="card2">
-            <i class="fa-solid fa-list-check" aria-hidden="true"></i>
-            <a>Veille technique</a> 
-            <div class="hover-text">
-            Spécifications techniques | Gestion de projet | Solution technique
-         </div>  
-             </article>
-    </div>
-
-    </section>
-
-    <section id="competences">
-        <h2>COMPÉTENCES</h2>
-        <img src="img/programmeur.jpg" class="programmer-img">
-        <article class="éval">
-        
-        <div class="progress-bar animate-progress">
-        <div class="progress-bar">
-            <i class="fa-brands fa-html5"><a>HTML</a></i>
-            <div class="progress-bar-inner1" style="width: 100%;"><a>100%</a></div>
-        </div>
-          </div>
-        
-        <div class="progress-bar animate-progress">
-          <div class="progress-bar">
-            <i class="fa-brands fa-css3-alt"><a>CSS</a></i>
-            <div class="progress-bar-inner2" style="width: 100%;"><a>100%</a></div>
-          </div>
-        </div>
-
-        
-          <div class="progress-bar animate-progress">
-          <div class="progress-bar">
-            <i class="fa-brands fa-js"><a>JS</a></i>
-            <div class="progress-bar-inner3" style="width: 65%;"><a>65%</a></div>
-          </div>
-        </div>
-
-          <div class="progress-bar animate-progress">
-          <div class="progress-bar">
-            <i class="fa-brands fa-react"><a>REACT</a></i>
-            <div class="progress-bar-inner4" style="width: 65%;"><a>65%</a></div>
-          </div>
-        </div>
-
-          <div class="progress-bar animate-progress">
-          <div class="progress-bar">
-            <i class="fa-brands fa-php"><a>PHP</a></i>
-            <div class="progress-bar-inner5" style="width: 55%;"><a>55%</a></div>
-          </div>
-        </div>
-
-        <div class="progress-bar animate-progress">
-            <div class="progress-bar">
-              <i class="fa-solid fa-database"><a>MongoDB</a></i>
-              <div class="progress-bar-inner6" style="width: 55%;"><a>55%</a></div>
+        <div class="qualities">
+            <div class="quality" data-text="Toujours en quête de nouvelles connaissances et expériences.">
+                <img src="img/peinture.png" alt="Créative">
+                <div class="description">CRÉATIVE</div>
             </div>
-          </div>
-
-        </article>
-    </section>
-
-    <section id="contact">
-        <h2>CONTACT</h2>
-        <div class="line"></div>
-        <p>Pour plus de détails, veuillez me contacter par e-mail</p>
-        <div class="contact-section">
-            <i class="fa-regular fa-envelope"></i>
-            <a href="mailto:bakayoko.shally.b@gmail.com">bakayoko.shally.b@gmail.com</a>
+            <div class="quality" data-text="Capable de travailler de manière indépendante et de prendre des initiatives.">
+                <img src="img/batterie.png" alt="Autonome">
+                <div class="description">AUTONOME</div>
+            </div>
+            <div class="quality" data-text="Toujours à la recherche de nouvelles choses à apprendre.">
+                <img src="img/loupe.png" alt="Curieuse">
+                <div  class="description">CURIEUSE</div>
+            </div>
         </div>
-          
+        <div class="cv">
+            <img src="img/cv.png" alt="CV">
+            <a href="Professional CV .pdf" class="download-btn">A TÉLÉCHARGER</a>
+        </div>
     </section>
-    
 
-    <footer id="footer">
-         <div class="footer-content">
-       <a href="https://github.com/shallybky" target="_blank"><i class="fa-brands fa-github"></i></a>
-       <a href="https://www.linkedin.com/in/shally-bakayoko-225sb1104/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+    <div class="services-section" id="services">
+        <a class="btn-s">SERVICES</a>
     </div>
-    <p>&copy; 2024 Bakayoko Shally</p>
-    </footer>
+    <hr>
+    <div class="content-s">
+        <div class="services">
+            <div class="service">
+                <img src="img/pc.png" alt="Programmation Web">
+                <div class="service-description">PROGRAMMATION WEB</div>
+            </div>
+            <div class="service">
+                <img src="img/écran.png" alt="Projet Web">
+                <div class="service-description">PROJET WEB</div>
+            </div>
+            <div class="service">
+                <img src="img/arrow.png" alt="Multi-Devises">
+                <div class="service-description">MULTI-DEVISES</div>
+            </div>
+            <div class="service">
+                <img src="img/nuage.png" alt="Audit & Optimisation">
+                <div class="service-description">AUDIT & OPTIMISATION</div>
+            </div>
+            <div class="service">
+                <img src="img/outils.png" alt="Veille Technique">
+                <div class="service-description">VEILLE TECHNIQUE</div>
+            </div>
+        </div>
+        <div class="skills">
+            <div class="skill">
+                <img src="img/html.png" >
+                <div class="progress">
+                    <div class="progress-bar" style="width: 100%; background-color: #fbc2da;">100%</div>
+                </div>
+            </div>
+            <div class="skill">
+                <img src="img/css.png" >
+                <div class="progress">
+                    <div class="progress-bar" style="width: 100%; background-color: #ffff;">100%</div>
+                </div>
+            </div>
+            <div class="skill">
+                <img src="img/js.png" >
+                <div class="progress">
+                    <div class="progress-bar" style="width: 65%; background-color: #fbc2da;">65%</div>
+                </div>
+            </div>
+            <div class="skill">
+                <img src="img/react.png" >
+                <div class="progress">
+                    <div class="progress-bar" style="width: 60%; background-color: #ffff;">60%</div>
+                </div>
+            </div>
+            <div class="skill">
+                <img src="img/php.png" >
+                <div class="progress">
+                    <div class="progress-bar" style="width: 55%; background-color: #fbc2da;">55%</div>
+                </div>
+            </div>
+            <div class="skill">
+                <img src="img/mongo.png" >
+                <div class="progress">
+                    <div class="progress-bar" style="width: 50%; background-color: #ffff;">50%</div>
+                </div>
+            </div>
+        </div>
+    </div>
 
+    <section id="realisation" class="realisation-section">
+        <a class="btn-s">RÉALISATION</a>
+        <hr>
+        <p>Voici quelques projets réalisés.</p>
+        <div class="projets">
+            <div class="projet">
+                <a href="ohmyfood.html" target="_blank">
+                <img src="img/ohmyfood.png" alt="Ohmyfood Project">
+                <span>Ohmyfood</span>
+            </div>
+            <div class="projet">
+                <a href="printit.html" target="_blank">
+                <img src="img/printit.png" alt="Print it Project">
+                <span>Print it</span>
+            </div>
+            <div class="projet">
+                <a href="kasa.html" target="_blank">
+                <img src="img/kasa.png" alt="Kasa Project">
+                <span>Kasa</span>
+            </div>
+            <div class="projet">
+                <a href="724events.html" target="_blank">
+                <img src="img/724events.png" alt="724events">
+                <span>724events</span>
+            </div>
+            <div class="projet">
+                <a href="booki.html" target="_blank">
+                <img src="img/booki.png" alt="Booki Project">
+                <span>Booki</span>
+            </div>
+            <div class="projet">
+                <a href="ninacarducci.html" target="_blank">
+                <img src="img/nina.png" alt="ninacarducci Project">
+                <span>Nina carducci</span></a>
+            </div>
+        </div>
+    </section>
 
-<script src="script.js"></script>
+    <section id="contact" class="contact-section">
+        <a class="btn-s">CONTACT</a>
+        <hr>
+
+        <div class="info">
+        <h1>CONTACTER MOI</h1>
+        <p>Pour plus de détails, veuillez me contacter par e-mail</p>
+        <p>
+            <i class="fa-solid fa-paperclip"></i>
+            <a href="mailto:bakayoko.shally.b@gmail.com" >bakayoko.shally.b@gmail.com</a>
+        </p>
+
+        </div>
+
+    </section>
+
     
 </body>
+</html>
 
-</html> 
 
