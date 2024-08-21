@@ -596,25 +596,132 @@ hr {
     text-decoration: underline;
 } 
 
-/*@media (max-width: 768px) {
+@media (max-width: 768px) {
+
     .ordinateur img {
         display: block;
-        width: 60%;
-        margin-top: -105px;
+        width: 47%;
+        margin-top: -28%;
+        margin-left: 50%;
     }
-}*/
 
-@media (max-width: 768px) {
+    .icon-links {
+        display: flex;
+        gap: 17px;
+        margin-left: -3%;
+    }
+
+    .navbar .menu a {
+        padding: 10px 22px;
+        width: 63px;
+        font-size: 76%;
+    } 
+
+    .content h1 {
+        font-size: 40px;
+        margin-left: -17%;
+    }
+
+    .content p {
+        font-size: 30px;
+        margin-left: -17%;
+        margin-top: -5%;
+    }
+
+    .plus a {
+        padding: 14px 33px;
+        font-size: 66%;
+        margin-top: 15%;
+    }
+
+    .about {
+        margin-top: 4rem;
+    }
+
+    a.btn {
+        padding: 14px 33px;
+    }
+
+    .about p {
+        font-size: 88%;
+        margin: 10% 8%;
+    }
+    
+    .cv {
+        margin-top: -54%;
+        margin-left: 55%;
+    }
+
+    .cv img {
+        width: 80%;
+    }
+
+    .cv .download-btn {
+        font-size: 53%;
+    }
+
+    .about .qualities {
+        display: none;
+    }
+    
+    .btn-s {
+        padding: 14px 33px;
+    }
+
+    hr {
+        margin: 0 10%;
+    }
+
+    .services {
+        width: 31%;
+    }
+
+    .service {
+        padding: 0 0;
+    }
+
+    .skill {
+        margin-left: -20%;
+    }
+    
+    .realisation-section hr {
+        width: 87%;
+        margin-top: 6%;
+    }
+
+    .realisation-section p {
+        font-size: 73%;
+    }
+    
+    .projets {
+        width: 87%;
+    }
+
+    #contact hr {
+        margin-top: 6%;
+    }
+    
+    .info {
+        padding: 74px 64px;
+        margin-left: -4%;
+    }
+    
+    
+}
+
+
+
+
+@media (max-width: 480px) {
 
     .navbar {
         padding: 15px;
     }
 
     .navbar .menu a {
-        font-size: 12px;
-        width: 110px;
+        font-size: 75%;
         background-color: rgb(48 48 48 / 0%);
-        padding: 0px 0px;
+        padding: 0% 0%;
     } 
 
     .menu {
@@ -658,8 +765,6 @@ hr {
 
     .content {
         margin-top: 140px;
-       /* text-align: center;
-        margin-left: 45px;*/
     }
 
     .content h1 {
@@ -696,7 +801,7 @@ hr {
 
     .about p {
         font-size: 10px; 
-        margin: 40px 0;
+        margin: 18% 0;
         max-width: 100%;
     }
 
