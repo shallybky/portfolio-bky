@@ -596,6 +596,122 @@ hr {
     text-decoration: underline;
 } 
 
+
+@media (max-width: 1024px) {
+
+    .ordinateur img {
+        display: block;
+        width: 47%;
+        margin-top: -28%;
+        margin-left: 50%;
+    }
+
+    .icon-links {
+        display: flex;
+        gap: 17px;
+        margin-left: -3%;
+    }
+
+    .navbar .menu a {
+        padding: 10px 22px;
+        width: 63px;
+        font-size: 76%;
+    } 
+
+    .content h1 {
+        font-size: 40px;
+        margin-left: -17%;
+    }
+
+    .content p {
+        font-size: 30px;
+        margin-left: -17%;
+        margin-top: -5%;
+    }
+
+    .plus a {
+        padding: 14px 33px;
+        font-size: 66%;
+        margin-top: 15%;
+    }
+
+    .about {
+        margin-top: 4rem;
+    }
+
+    a.btn {
+        padding: 14px 33px;
+        margin-left: -71%;
+    }
+
+    .about p {
+        font-size: 88%;
+        margin: 10% 8%;
+    }
+    
+    .cv {
+        margin-top: -45%;
+        margin-left: 55%;
+    }
+
+    .cv .download-btn {
+        font-size: 53%;
+    }
+
+    .about .qualities {
+        display: none;
+    }
+    
+    .btn-s {
+        padding: 14px 33px;
+        margin-left: -72%;
+    }
+
+    hr {
+        margin: 0 9%;
+    }
+
+    .services {
+        width: 31%;
+    }
+
+    .service {
+        padding: 0 0;
+    }
+
+    .skill {
+        margin-left: -20%;
+    }
+    
+    .realisation-section hr {
+        width: 87%;
+        margin-top: 6%;
+    }
+
+    .realisation-section p {
+        font-size: 73%;
+        margin-left: -67%;
+    }
+    
+    .projets {
+        width: 87%;
+    }
+
+    #contact hr {
+        margin-top: 6%;
+        width: 83%;
+        margin-left: 8%;
+    }
+    
+    .info {
+        padding: 7% 0;
+        margin-left: 8%;
+    }
+    
+}
+
+
+
 @media (max-width: 768px) {
 
     .ordinateur img {
@@ -706,10 +822,7 @@ hr {
         margin-left: -4%;
     }
     
-    
 }
-
-
 
 
 @media (max-width: 480px) {
