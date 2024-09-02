@@ -298,7 +298,6 @@ a.btn{
 }
 
 .about .quality img {
-    width: 50px;
     height: 50px;
     margin-bottom: 10px;
 }
@@ -756,6 +755,7 @@ hr {
 
     a.btn {
         padding: 14px 33px;
+        margin-left: -68%;
     }
 
     .about p {
@@ -782,14 +782,15 @@ hr {
     
     .btn-s {
         padding: 14px 33px;
+        margin-left: -72%;
     }
 
     hr {
-        margin: 0 10%;
+        margin: 0 7%;
     }
 
     .services {
-        width: 31%;
+        width: 37%;
     }
 
     .service {
@@ -801,20 +802,23 @@ hr {
     }
     
     .realisation-section hr {
-        width: 87%;
+        width: 92%;
         margin-top: 6%;
     }
 
     .realisation-section p {
         font-size: 73%;
+        margin-left: -64%;
     }
     
     .projets {
-        width: 87%;
+        width: 93%;
     }
 
     #contact hr {
         margin-top: 6%;
+        width: 87%;
+        margin-left: 6%;
     }
     
     .info {
@@ -991,7 +995,7 @@ hr {
     }
 
     hr {
-        display: none; /* Masquer la ligne horizontale */
+        display: none; 
     }
 
     .realisation-section p {
