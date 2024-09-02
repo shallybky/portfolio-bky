@@ -595,6 +595,37 @@ hr {
     text-decoration: underline;
 } 
 
+@media (max-width: 1440px) {
+
+    a.btn {
+        margin-left: -64%;
+    }
+
+    .about .qualities {
+        margin-left: -29%;
+    }
+    
+    hr {
+        margin: 0 187px;
+        margin-top: -11px;
+    }
+
+    .content-s {
+        padding: 50px 23px;
+    }
+
+    .service {
+        padding: 6px 2px;
+    }
+        
+    .info {
+        padding: 120px 108px;
+        margin-left: 189px;
+    }
+    
+}
+
+
 
 @media (max-width: 1024px) {
 
@@ -658,7 +689,17 @@ hr {
     }
 
     .about .qualities {
-        display: none;
+        margin-top: -44px;
+        margin-left: -35%;
+    }
+
+    .about .quality {
+        padding: 19px 19px;
+        width: 105px;
+    }
+
+    .cv img {
+        width: 317px;
     }
     
     .btn-s {
@@ -779,7 +820,7 @@ hr {
     .about .qualities {
         display: none;
     }
-    
+
     .btn-s {
         padding: 14px 33px;
         margin-left: -72%;
@@ -822,8 +863,9 @@ hr {
     }
     
     .info {
-        padding: 74px 64px;
-        margin-left: -4%;
+        padding: 75px 108px;
+        margin-left: 6%;
+        width: 59%;
     }
     
 }
