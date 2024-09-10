@@ -692,12 +692,24 @@ html {
     .text-container h2 {
       font-size: 17px; 
     }
+
+    .btn-s a {
+        font-size: 9px;
+        padding: 16px 30px;
+    }
   
     .btn {
       padding: 10px 20px;
       font-size: 7px;
       margin-top: 10%;
     }
+
+    
+  .about-button {
+    font-size: 9px;
+    padding: 14px 30px;
+    margin-left: -61%;
+   }
   
     .about-content p {
       font-size: 12px;
@@ -739,7 +751,7 @@ html {
   }
   
   .info {
-    padding: 20px;
+    padding: 60px;
     margin: 35px auto;
     max-width: 100%;
   }
