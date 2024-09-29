@@ -52,15 +52,6 @@ ScrollReveal().reveal(".image", {
 
 
 
-ScrollReveal().reveal(".services__left", {
-  ...scrollRevealOption,
-  origin: "left",
-});
-ScrollReveal().reveal(".services__right", {
-  ...scrollRevealOption,
-  origin: "right",
-});
-
 
 ScrollReveal().reveal(".footer__container h2", {
   ...scrollRevealOption,
