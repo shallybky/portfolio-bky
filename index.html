@@ -1,216 +1,277 @@
 <!DOCTYPE html>
-<html lang="fr">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link href="https://fonts.googleapis.com/css2?family=Anybody:ital,wght@0,100..900;1,100..900&family=Lexend+Deca:wght@100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Questrial&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Mukta:wght@200;300;400;500;600;700;800&display=swap" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&family=Mukta:wght@200;300;400;500;600;700;800&display=swap" rel="stylesheet">
-  <script src="https://kit.fontawesome.com/4a2f2722a9.js" crossorigin="anonymous"></script>
-  <link rel="stylesheet" href="styles.css">
-  <link rel="stylesheet" href="style.css">
-    <script src="script.js"></script>
-    <title>Créations Digitales</title>
-</head>
-<body>
-  <header>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css"
+      rel="stylesheet"/>  
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Anybody:ital,wght@0,100..900;1,100..900&family=Lexend+Deca:wght@100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Questrial&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="stylesheet" href="styles.css" />
+    <title>Web Portfolio | Shally</title>
+  </head>
+  <body>
     <nav>
-      <div class="social-icons">
-        <a href="https://www.linkedin.com/in/shally-bakayoko-225sb1104/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
-        <a href="https://github.com/shallybky" target="_blank" title="GitHub"><i class="fa-brands fa-github"></i></a>
+      <div class="nav__header">
+        <div class="nav__logo">
+           <img src="img/portfolio.png" alt="logo" />
+        </div>
+        <div class="nav__menu__btn" id="menu-btn">
+          <i class="ri-menu-line"></i>
+        </div>
       </div>
-      <input type="checkbox" id="menu-bar">
-      <label for="menu-bar" class="burger">&#9776;</label> 
-      <ul class="nav-links">
-        <li><a href="#acceuil">ACCUEIL</a></li>
-        <li><a href="#cv">CV</a></li>
+      <ul class="nav__links" id="nav-links">
+        <li><a href="#home">HOME</a></li>
+        <li><a href="#à propos">À PROPOS</a></li>
         <li><a href="#services">SERVICES</a></li>
-        <li><a href="#realisation">RÉALISATIONS</a></li>
-        <li><a href="#contact">CONTACT</a></li>
+        <li><a href="#créations">CRÉATIONS</a></li>
+        <li><a href="#contact" class="hire__me">CONTACT</a></li>
       </ul>
     </nav>
-  </header>
 
-  <section class="hero" id="acceuil">
-    <div class="text-container">
-      <h1 >Créations Digitales</h1>
-      <h2>Shally Bakayoko</h2>
-      <a href="#about-section"  class="btn">VOIR PLUS</a>
-    </div>
-    <div class="laptop-container">
-      <img src="img/ordinateur.png" alt="Laptop Image" class="laptop">
-    </div> 
+    <header class="header__container" id="home">
+      <div class="header__content">
+        <h5>Créations digitales</h5>
+        <h1>Shally Bakayoko <span>Web Developer</span></h1>
+        <p>
+          En tant qu'étudiante en Développement web, 
+          j’ai appris à concilier besoins utilisateurs, 
+          objectifs projets et contraintes techniques, 
+          tout en veillant à la qualité du code et au design.
+        </p>
+        <div class="links">
+          <div class="socials">
+            <h4>Réseaux</h4>
+            <ul>
+              <li>
+                <a href="https://github.com/shallybky"><i class="fa-brands fa-github"></i></i></a>
+              </li>
+              <li>
+                <a href="https://www.linkedin.com/in/shally-bakayoko-225sb1104/"><i class="fa-brands fa-linkedin"></i></a>
+              </li>
+            </ul>
+          </div>
+          <div class="skills">
+            <h4>CV</h4>
+            <ul>
+              <li>
+                <a href="Professional CV.pdf">À télécharger</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </header>
+    </section>
+
+    <!--Portait-->
+    <section class="portrait" id="à propos">
+      <div class="image">
+          <img src="img/portraits.png" alt="Workstation Image">
+      </div>
+      <div class="content">
+          <h1>À PROPOS</h1>
+          <h2>Intégratrice en Développement Web</h2>
+          <p>Étudiante passionnée dans le domaine du web depuis 2 ans et actuellement spécialisée en développement web, je conçois et réalise des sites internet du cahier des charges à la mise en ligne. Mes compétences s'étendent également au développement d'applications mobiles. Grâce à une approche centrée sur l'utilisateur, je m'efforce de créer des expériences en ligne à la fois fonctionnelles et esthétiques.</p>
+          <p>Toujours en quête d'innovation, je reste à l'affût des dernières tendances et technologies pour offrir des solutions modernes et efficaces. Si vous souhaitez en savoir plus sur mon parcours, n'hésitez pas à me contacter.</p>
+      </div>
   </section>
 
-  <section class="about-section"  id="about-section">
-    <div class="about-container">
-        <div class="about-header">
-            <button class="about-button">À PROPOS</button>
+  <!--services-->
+  <section class="services" id="services">
+    <!--<div class="title_s">
+      <h2>SERVICES</h2>
+    </div>-->
+    <h2>SERVICES</h2>
+    <div class="services__container">
+      <div class="services__left">
+        <ul class="services__list">
+          <li>
+            <img src="img/ordinateur.png" alt="Programmation Web" />
+            Programmation Web
+          </li>
+          <li>
+            <img src="img/fenêtre.png" alt="Projet Web" />
+            Projet Web
+          </li>
+          <li>
+            <img src="img/x2.png" alt="Multi-diversi" />
+            Multi-diversi
+          </li>
+          <li>
+            <img src="img/outils.png" alt="Audit & optimisation" />
+            Audit & optimisation
+          </li>
+          <li>
+            <img src="img/nuage.png" alt="Veille technique" />
+            Veille technique
+          </li>
+        </ul>
+      </div>
+      <div class="services__right">
+        <p>
+          Mes expériences professionnelles me permettent d’être aujourd’hui
+          autonome, polyvalente et de disposer des compétences techniques dont
+          voici un aperçu :
+        </p>
+        <div class="skills2">
+          <div class="skills__section">
+            <h3>Langages de programmation et Technologies</h3>
+            <ul class="skills__list">
+              <li><img src="img/html.png" alt="HTML" /></li>
+              <li><img src="img/css.png" alt="CSS" /></li>
+              <li><img src="img/js.png" alt="JavaScript" /></li>
+              <li><img src="img/php.png" alt="PHP" /></li>
+              <li><img src="img/wordpress.png" alt="WordPress" /></li>
+              <li><img src="img/shopify.png" alt="Shopify" /></li>
+            </ul>
+          </div>
+          <div class="skills__section">
+            <h3>Frameworks et Outils utilisés pour les projets </h3>
+            <ul class="skills__list">
+              <li><img src="img/react.png" alt="React" /></li>
+              <li><img src="img/node.png" alt="Node.js" /></li>
+              <li><img src="img/mongo.png" alt="MongoDB" /></li>
+            </ul>
+          </div>
         </div>
-        <div class="about-content">
-            <p>
-              Étudiante passionnée dans le domaine du web depuis 2 ans et actuellement spécialisée en développement web, je conçois et réalise des sites internet du cahier des charges à la mise en ligne. 
-              Mes compétences s'étendent également au développement d'applications mobiles. Grâce à une approche centrée sur l'utilisateur, je m'efforce de créer des expériences en ligne à la fois fonctionnelles et esthétiques. 
-              <br><br>
-              Toujours en quête d'innovation, je reste à l'affût des dernières tendances et technologies pour offrir des solutions modernes et efficaces. Si vous souhaitez en savoir plus sur mon parcours, n'hésitez pas à me contacter.
-            </p>
-        </div>
-        <div class="skills">
-            <div class="skill-box">
-                <i class="fas fa-paint-brush"></i>
-                <span class="skill-text">Toujours en quête de nouvelles connaissances et expériences.</span>
-                <span>CRÉATIVE</span>
-            </div>
-            <div class="skill-box">
-                <i class="fas fa-battery-full"></i>
-                <span class="skill-text">Capable de travailler de manière indépendante et de prendre des initiatives.</span>
-                <span>AUTONOME</span>
-            </div>
-            <div class="skill-box">
-                <i class="fas fa-search"></i>
-                <span class="skill-text">Toujours à la recherche de nouvelles choses à apprendre.</span>
-                <span>CURIEUSE</span>
-            </div>
-        </div>
+      </div>
     </div>
+  </section>
+  
 
-    <section class="resume-container" id="cv">
-        <img src="img/cv.png" alt="CV de Shally Bakayoko" class="resume-img">
-        <div class="download-btn">
-            <a href="Professional CV.pdf" download>A TÉLÉCHARGER</a>
+
+<div class="bac-color" id="créations">
+  <section class="section__container store__container">
+    <h2>CRÉATIONS</h2>
+    <p>
+      Découvrez mes projets réalisés dans le cadre de ma formation en développement web.
+    </p>
+    <div class="swiper">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide">
+          <div class="store__card">
+            <h4>724vents</h4>
+            <img src="img/724events.png" alt="store"data-description="
+            <h3>724vents</h3><p>724Events est une application web d'une agence d'événementielle avec React​.
+              Le but du projet consiste à déboguer le site qui vise à identifier et résoudre les erreurs et les problèmes.
+              (Projet de Formation).</p>
+            <img src='img/site.724events1.png' alt='724events project image'/>
+            <img src='img/site.724events2.png'>
+            <img src='img/site.724events3.png'><br/>
+            <a href='https://724events-6ad11oxdf-shally.vercel.app' target='_blank'>Voir le projet de 724events</a>" />
+            
+          </div>
         </div>
-    </section>
-</section>
-
-<section class="services-section" id="services">
-  <div class="btn-s">
-    <a>SERVICES</a></div>
+        <div class="swiper-slide">
+          <div class="store__card">
+            <h4>BOOKI</h4>
+            <img src="img/booki.png" alt="store" data-description="<h3>Booki</h3><p>Booki est un site d'hébergement qui simplifie la recherche d'endroit où séjourner et d'activités passionnantes dans la ville choisie par les clients. 
+              Avec une conception adaptative, la plateforme est parfaitement accessible sur mobile, 
+              tablette et ordinateur.
+              (Projet de Formation).</p>
+            <img src='img/site.booki1.png' alt='booki project image'/>
+            <img src='img/site.booki2.png'>
+            <img src='img/site.booki3.png'><br/>
+            <a href='https://shallybky.github.io/Booki/' target='_blank'>Voir le projet de Booki</a>" />
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="store__card">
+            <h4>KASA</h4>
+            <img src="img/kasa.png" alt="store" data-description="<h3>Kasa</h3><p>Kasa est une application web de location immobilière avec React​. 
+              Avec une conception adaptative, la plateforme est parfaitement accessible sur téléphone portable, ordinateur. 
+              (Projet de Formation).</p>
+            <img src='img/site.kasa2.png' alt='Kasa project image'/>
+            <img src='img/site.kasa3.png'>
+            <img src='img/site.kasa4.png'><br/>
+            <a href='https://kasa-o4kk80byo-shally.vercel.app/' target='_blank'>Voir le projet de Kasa</a>" />
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="store__card">
+            <h4>Nina Carducci</h4>
+            <img src="img/nina.png" alt="store" data-description="<h3>Nina Carducci</h3><p>Nina Carducci est un site de photographie.
+              Ce projet a été méticuleusement développé et amélioré afin de garantir une accessibilité accrue,
+              des performances optimales et une visibilité optimisée grâce à une stratégie de référencement SEO efficace. (Projet de Formation).</p>
+            <img src='img/site.nina2.png' alt='Nina Carducci project image'/>
+            <img src='img/site.nina3.png'>
+            <img src='img/site.nina4.png'><br/>
+            <a href='https://shallybky.github.io/Nina-carducci/' target='_blank'>Voir le projet de Nina carducci</a>" />
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="store__card">
+            <h4>Ohmyfood</h4>
+            <img src="img/ohmyfood.png" alt="store" data-description="<h3>Ohmyfood</h3><p>OhMyfood est une entreprise de commande de repas en ligne. De plus, OhMyFood intègre des animations pour enrichir l'interaction avec l'utilisateur, il a aussi été conçu en mobile first.
+               Avec une conception adaptative, la plateforme est parfaitement accessible sur mobile, tablette et ordinateur. 
+               (Projet de Formation).</p>
+            <img src='img/site.ohmyfood2.png' alt='Ohmyfood project image'/>
+            <img src='img/site.ohmyfood3.png'>
+            <img src='img/site.ohmyfood4.png'><br/>
+            <a href='https://shallybky.github.io/OhmyFood/' target='_blank'>Voir le projet de Ohmyfood</a>" />
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="store__card">
+            <h4>Print it</h4>
+            <img src="img/printit.png" alt="store" data-description="<h3>Print it</h3><p>Print It est un site spécialisé dans l'impression personnalisée.
+              Le but de ce projet est d'intégrer un carrousel d'images de présentation. 
+              (Projet de Formation).</p>
+           <img src='img/site.printit1.png' alt='Print it project image'/>
+           <img src='img/site.printit2.png'>
+           <img src='img/site.printit3.png'><br/>
+           <a href='https://shallybky.github.io/Print-it/' target='_blank'>Voir le projet de Print it</a>" />
+          </div>
+        </div>
+      </div>
+      <div class="swiper-pagination"></div>
+    </div>
+  </section>
+  
+  <!-- Modal -->
+  <div id="modal" class="modal">
+    <div class="modal-content">
+      <span class="close">&times;</span>
+      <div id="modal-description"></div>
+    </div>
+  </div>
+  
 </div>
-<!--<hr> -->
-<div class="content-s">
-  <div class="services">
-      <div class="service">
-          <img src="img/pc.png" alt="Programmation Web">
-          <div class="service-description">PROGRAMMATION WEB</div>
-      </div>
-      <div class="service">
-          <img src="img/écran.png" alt="Projet Web">
-          <div class="service-description">PROJET WEB</div>
-      </div>
-      <div class="service">
-          <img src="img/arrow.png" alt="Multi-Devises">
-          <div class="service-description">MULTI-DEVISES</div>
-      </div>
-      <div class="service">
-          <img src="img/nuage.png" alt="Audit & Optimisation">
-          <div class="service-description">AUDIT & OPTIMISATION</div>
-      </div>
-      <div class="service">
-          <img src="img/outils.png" alt="Veille Technique">
-          <div class="service-description">VEILLE TECHNIQUE</div>
-      </div>
-  </div>
-  <div class="compétences">
-      <div class="compétence">
-          <img src="img/html.png" >
-          <div class="progress">
-              <div class="progress-bar" style="width: 100%; background-color: #fbc2da;">100%</div>
-          </div>
-      </div>
-      <div class="compétence">
-          <img src="img/css.png" >
-          <div class="progress">
-              <div class="progress-bar" style="width: 100%; background-color: #ffff;">100%</div>
-          </div>
-      </div>
-      <div class="compétence">
-          <img src="img/js.png" >
-          <div class="progress">
-              <div class="progress-bar" style="width: 75%; background-color: #fbc2da;">75%</div>
-          </div>
-      </div>
-      <div class="compétence">
-          <img src="img/react.png" >
-          <div class="progress">
-              <div class="progress-bar" style="width: 70%; background-color: #ffff;">70%</div>
-          </div>
-      </div>
-      <div class="compétence">
-          <img src="img/php.png" >
-          <div class="progress">
-              <div class="progress-bar" style="width: 55%; background-color: #fbc2da;">55%</div>
-          </div>
-      </div>
-      <div class="compétence">
-          <img src="img/mongo.png" >
-          <div class="progress">
-              <div class="progress-bar" style="width: 50%; background-color: #ffff;">50%</div>
-          </div>
-      </div>
-  </div>
-</section>
 
-<section id="realisation" class="realisation-section">
-  <div class="btn-s">
-    <a>RÉALISATIONS</a></div>
-</div>
- <!-- <hr>  -->
-  <p> Explorez mes réalisations et les projets qui ont marqué mon parcours. </p>
-  <div class="projets">
-      <div class="projet">
-          <a href="ohmyfood.html" target="_blank">
-          <img src="img/ohmyfood.png" alt="Ohmyfood Project">
-          <span>Ohmyfood</span>
-      </div>
-      <div class="projet">
-          <a href="printit.html" target="_blank">
-          <img src="img/printit.png" alt="Print it Project">
-          <span>Print it</span>
-      </div>
-      <div class="projet">
-          <a href="kasa.html" target="_blank">
-          <img src="img/kasa.png" alt="Kasa Project">
-          <span>Kasa</span>
-      </div>
-      <div class="projet">
-          <a href="724events.html" target="_blank">
-          <img src="img/724events.png" alt="724events">
-          <span>724events</span>
-      </div>
-      <div class="projet">
-          <a href="booki.html" target="_blank">
-          <img src="img/booki.png" alt="Booki Project">
-          <span>Booki</span>
-      </div>
-      <div class="projet">
-          <a href="ninacarducci.html" target="_blank">
-          <img src="img/nina.png" alt="ninacarducci Project">
-          <span>Nina carducci</span></a>
-      </div>
+<footer>
+  <div class="section__container footer__container" id="contact">
+    <h2>CONTACT</h2>
+    <p>
+      Que vous ayez un projet en tête, une question sur mon travail ou que vous souhaitiez simplement entrer en contact, n'hésitez pas à me contacter.
+      Vous pouvez me joindre par e-mail ou via mes réseaux sociaux.
+      Je suis toujours enthousiaste à l'idée de collaborer avec des personnes partageant les mêmes idées et d'explorer de nouvelles opportunités.
+    </p>
+    <div class="mail__to">
+      <a href="mailto:bakayoko.shally.b@gmail.com">
+        <span><i class="ri-mail-line"></i></span>
+        bakayoko.shally.b@gmail.com
+      </a>
+    </div>
+    <div class="footer__localisation">
+      <a>Lyon, Villeurbanne</a>
   </div>
-</section>
-
-<section id="contact" class="contact-section">
-  <div class="btn-s">
-    <a>CONTACT</a></div>
-  <!--<hr>-->
-  <div class="info">
-  <h1>CONTACTER MOI</h1>
-  <p>Pour plus de détails, veuillez me contacter par e-mail</p>
-  <p>
-      <i class="fa-solid fa-paperclip"></i>
-      <a href="mailto:bakayoko.shally.b@gmail.com" >bakayoko.shally.b@gmail.com</a>
-  </p>
-
-  </div>
-</section>
+</footer>
 
   
-  <script src="scripts.js"></script>
-</body>
+
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="main.js"></script>
+  </body>
 </html>
