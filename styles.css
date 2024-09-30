@@ -364,8 +364,8 @@ section.services {
   padding: 40px 20px;
 }
 
-.title_s h2 {
-  font-size: 25px;
+.services h2 {
+  font-size: 2rem;
   margin-bottom: 20px;
   font-family: 'Poppins';
   font-weight: 700;
@@ -724,6 +724,11 @@ footer {
   }
 
   /*services*/
+  section.services {
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+  }
   .services__container {
     display: flex;
     align-items: flex-start;
@@ -768,6 +773,9 @@ footer {
   /*modal*/
   .modal-content {
     margin-top: 25%;
+  }
+  .services h2 {
+    font-size: 1.5rem;
   }
 }
 
